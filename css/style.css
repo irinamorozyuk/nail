@@ -1,0 +1,592 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+b,
+strong {
+  font-weight: bold;
+}
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+ol,
+ul {
+  list-style: none;
+}
+li {
+  display: list-item;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+svg {
+  overflow: hidden;
+}
+input:focus {
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #443f3d;
+  background: #e3e0d7;
+  font-family: tahoma;
+  font-size: 12px;
+  position: relative;
+}
+.cufon-ready body {
+  font-family: "PT Sans";
+}
+img {
+  vertical-align: middle;
+}
+a {
+  color: #015ba1;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+a img {
+  border: 0;
+}
+pre,
+code,
+font-family 'DejaVu Sans Mono',
+Menlo,
+Consolas,
+monospace,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #20205e;
+}
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+h2 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: normal;
+}
+h6 {
+  font-size: 18px;
+  font-weight: normal;
+}
+ol {
+  list-style: decimal;
+  padding: 0;
+}
+ul {
+  list-style: disc;
+  padding: 0;
+}
+li {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ol,
+ol ul,
+ul ol {
+  margin: 10px 0;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+hr {
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #999;
+  display: block;
+  margin: 25px 0;
+}
+td {
+  vertical-align: top;
+}
+blockquote {
+  border-left: 2px solid #a00;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+blockquote p {
+  text-indent: 0 !important;
+  margin-bottom: 15px;
+}
+blockquote small {
+  color: #999;
+}
+dl {
+  margin-bottom: 30px;
+}
+dl dt {
+  font-weight: bold;
+  padding-top: 15px;
+}
+dl dd {
+  padding-left: 15px;
+}
+table.table {
+  width: 100%;
+}
+table.table th {
+  font-weight: bold;
+}
+table.table th,
+table.table td {
+  border-bottom: 1px solid #999;
+  padding: 10px;
+}
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 18px;
+}
+.table {
+  display: table;
+  table-layout: fixed;
+  width: 100px;
+}
+.table .row {
+  display: table-row;
+}
+.table .row .cell {
+  display: table-cell;
+}
+.clr {
+  clear: both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/**
+ * For IE 6/7 only
+ */
+.clearfix {
+  *zoom: 1;
+}
+.pull-right {
+  float: right;
+}
+img.pull-right {
+  margin: 0 0 0 15px;
+}
+.pull-left {
+  float: left;
+}
+img.pull-left {
+  margin: 0 15px 0 0;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+#header {
+  background: url("../img/header.png") no-repeat 50% 0;
+  height: 680px;
+}
+#logo {
+  padding: 6px 0 0 0;
+  color: #db3030;
+  font-size: 21px;
+}
+#logo img {
+  display: block;
+  margin: 0 0 5px 0;
+}
+#slogan {
+  font-size: 40px;
+  margin: 13px 0 0 -5px;
+}
+#slogan span {
+  display: block;
+}
+#slogan .slogan-small {
+  font-size: 36px;
+}
+.cufon-ready #slogan {
+  font-size: 60px;
+  margin: 18px 0 0 -5px;
+}
+.cufon-ready #slogan span {
+  margin: -5px 0 0 0;
+}
+.cufon-ready #slogan .slogan-small {
+  font-size: 46px;
+  margin: -10px 0 0 0;
+}
+#telephone {
+  color: #db3030;
+  font-size: 21px;
+  text-align: center;
+  float: left;
+  margin: 25px 0 -3px -5px;
+}
+#telephone span {
+  display: block;
+}
+#telephone .telephone {
+  font-size: 48px;
+  margin: 0 0 -5px 0;
+}
+.callback {
+  font-size: 30px;
+  margin: 0 0 0 -1px;
+}
+.callback .inputtext {
+  display: block;
+  padding: 0 15px;
+  margin: 10px 0 0 0;
+  border: 0;
+  border-radius: 3px;
+  background: #fff;
+  width: 230px;
+  height: 40px;
+  font-size: 18px;
+  font-family: 'PT Sans';
+}
+.callback button {
+  display: block;
+  padding: 0;
+  margin: 8px 0 0 0;
+  width: 260px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background: #40b8b6;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.callback button.success {
+  background: #32d500;
+  cursor: default;
+}
+.cufon-ready .callback	button {
+  font-size: 27px;
+}
+#action {
+  padding: 0;
+}
+#action .action-title {
+  text-align: center;
+  color: #db3030;
+  font-size: 40px;
+  margin: -10px 0 0 0;
+  padding: 0 0 18px 0;
+  background: url("../img/separator.png") no-repeat center bottom;
+}
+#action .action-title span {
+  color: #d17374;
+}
+#action .action-title .strike {
+  background: url("../img/strike.png") repeat-x 0 57%;
+}
+#action .action-blocks {
+  padding: 10px 0 0 0;
+}
+#action .action-block {
+  float: left;
+  background: url("../img/chek.png") no-repeat 50% 30px;
+  padding: 95px 0 0 0;
+  width: 188px;
+  height: 100px;
+  text-align: center;
+  color: #d17374;
+  font-size: 30px;
+  margin: -10px 0 0 0;
+}
+#action .action-block span {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+}
+#action .action-block span cufon {
+  margin: -5px 0;
+}
+.cufon-ready #action .action-title {
+  font-size: 50px;
+}
+#gifts {
+  background: url("../img/gifts.png") no-repeat center top;
+  height: 363px;
+  margin: 20px 0 0 0;
+}
+#gifts .wrapper {
+  position: relative;
+}
+#gifts .gift-desc {
+  position: absolute;
+  text-align: center;
+  width: 438px;
+  padding: 15px 0 0 0;
+  top: 53px;
+  left: 14px;
+  font-size: 25px;
+}
+#gifts .gift-desc .prise {
+  color: #db3030;
+}
+#gifts .callback {
+  position: absolute;
+  right: 29px;
+  top: 69px;
+}
+#gifts .callback span {
+  font-size: 28px;
+}
+#gifts .callback .inputtext,
+#gifts .callback button {
+  margin-left: 10px;
+}
+.cufon-ready #gifts .gift-desc {
+  font-size: 30px;
+}
+.cufon-ready #gifts .gift-desc cufon {
+  margin: -10px 0;
+}
+#reviews {
+  margin: 0 0 0 0;
+}
+#reviews .wrapper {
+  width: 1000px;
+  padding: 5px 0 0 0;
+}
+#reviews .reviews-title {
+  text-align: center;
+  color: #bb7273;
+  font-size: 50px;
+  padding: 0 0 25px 0;
+}
+#reviews .reviews-row {
+  overflow: hidden;
+  padding: 0 0 55px 20px;
+}
+#reviews .reviews-row .review {
+  float: left;
+  font-size: 19px;
+  width: 490px;
+}
+#reviews .reviews-row .review-name {
+  font-size: 30px;
+  color: #bb7273;
+}
+#footer {
+  position: relative;
+}
+#footer .wrapper {
+  padding: 0;
+}
+#footer .footer {
+  height: 420px;
+  width: 916px;
+  margin: -23px 0 0 -3px;
+  position: relative;
+  background: url("../img/footer.png") no-repeat center top;
+}
+#footer .footer .callback {
+  position: absolute;
+  right: 15px;
+  top: 55px;
+}
+#footer .footer .callback span {
+  display: block;
+  text-align: center;
+}
+#footer .footer .copyright {
+  position: absolute;
+  right: 0;
+  top: 295px;
+  text-align: right;
+  font-size: 20px;
+}
